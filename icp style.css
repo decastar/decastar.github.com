@@ -13,6 +13,10 @@ p {
 	padding-left: 35px;
 }
 
+iframe {
+	padding: 20px;
+}
+
 #wrapper {
 	width: 100%;
 	margin-left: 20px;
