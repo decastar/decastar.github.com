@@ -26,7 +26,7 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #16b6b8;
+  background-color: teal;
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -113,7 +113,7 @@ body {
 }
 
 .active {
-  background-color: #16b6b8;
+  background-color: teal;
   color: white;
 }
 
@@ -143,7 +143,7 @@ body {
 	outline: none;
 	color: white;
 	padding: 14px 16px;
-	background-color: #16b6b8;
+	background-color: teal;
 	font-family: inherit;
 	margin: 0;
 }
@@ -210,7 +210,7 @@ body {
 }
 
 .footer a.active {
-	background-color: #16b6b8;
+	background-color: teal;
 	color: white;
 	float: right;
 }
@@ -264,10 +264,10 @@ a.indexsection {
 }
 
 a.index {
-	color: #16b6b8;
+	color: teal;
 	text-decoration: none;
 }
 
 h3.index {
-	color: #16b6b8;
+	color: teal;
 	padding-left: 10px;
