@@ -187,16 +187,7 @@ body {
   	position: fixed;
   	bottom: 0;
   	width: 100%;
-	margin-top: 40px;
-}
-
-.resumefooter {
-  	overflow: hidden;
-  	background-color: black;
-  	position: fixed;
-  	bottom: 0;
-  	width: 100%;
-	margin-top: 280px;
+	margin-top: 60px;
 }
 
 .footer a {
