@@ -6,15 +6,23 @@
 
 <style>
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
+.news {
+	padding: 25px;
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	
 /* Header/logo Title */
 .header {
 	padding: 20px;
-    text-align: center;
-    background: #f1f1f1;
-    color: teal;
+	text-align: center;
+	background: #f1f1f1;
+	color: teal;
 }
 
 .header a.logo{
@@ -24,48 +32,48 @@
 
 /* Increase the font size of the heading */
 .header h1 {
-    font-size: 40px;
+	font-size: 40px;
 }
 
 /* Top Nav */
 .topnav {
-  	overflow: hidden;
-  	background-color: black;
+	overflow: hidden;
+	background-color: black;
 }
 
 .topnav a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 .active {
-  background-color: teal;
-  color: white;
+	background-color: teal;
+	color: white;
 }
 
 .topnav .icon {
-  display: none;
+	display: none;
 }
 
 .dropdown {
-    float: left;
-    overflow: hidden;
+	float: left;
+	overflow: hidden;
 }
 
 .dropdown .dropbtn {
-    font-size: 17px;    
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
+	font-size: 17px;    
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
 }
 
 .dropbtnactive {
@@ -80,55 +88,55 @@
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
 }
 
 .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: white;
-  color: black;
+	background-color: white;
+	color: black;
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
-    color: black;
+	background-color: #ddd;
+	color: black;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+	display: block;
 }
 
 /* Footer Nav */
 .footer {
-  	overflow: hidden;
-  	background-color: black;
-  	position: fixed;
-  	bottom: 0;
-  	width: 100%;
+	overflow: hidden;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 	margin-top: 50px;
 }
 
 .footer a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
 }
 
 .footer a.right{
@@ -136,8 +144,8 @@
 }
 
 .footer a:hover {
-  background: white;
-  color: black;
+	background: white;
+	color: black;
 }
 
 .footer a.active {
@@ -147,56 +155,56 @@
 }
 
 .main {
-  padding: 20px;
-  margin-bottom: 50px;
+	padding: 20px;
+	margin-bottom: 50px;
 }
 	
 /* Create four equal columns that floats next to each other */
 .column {
-    float: left;
-    width: 25%;
+	float: left;
+	width: 25%;
 }
 
 /* Clear floats */
 .row:after {
-    content: "";
-    display: table;
-    clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
-    .column {
-        width: 50%;
+	.column {
+		width: 50%;
     }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
+	.column {
+		width: 100%;
     }
 }
 	
 #myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 10px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: teal;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  margin-bottom: 60px;
-  border-radius: 4px;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: teal;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	margin-bottom: 60px;
+	border-radius: 4px;
 }
 
 #myBtn:hover {
-  background-color: #555;
+	background-color: #555;
 }
 
 h4 {
@@ -219,8 +227,8 @@ p.iframe {
 
 /* Style the body */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
 }
 
 .emphasis {
@@ -251,17 +259,17 @@ h3.index {
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		document.getElementById("myBtn").style.display = "block";
     } else {
-        document.getElementById("myBtn").style.display = "none";
+			document.getElementById("myBtn").style.display = "none";
     }
 }
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
+	document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
 }
 </script>
 	
@@ -272,24 +280,24 @@ function topFunction() {
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	
 <div class="header">
-  <a href="index.html" class="logo"><h1>Destiny Camacho</h1></a>
-  <p>An aspiring multimedia journalist.</p>
+	<a href="index.html" class="logo"><h1>Destiny Camacho</h1></a>
+	<p>An aspiring multimedia journalist.</p>
 </div>
 
 <div class="topnav" id="myTopnav">
-  <a href="index.html">Home</a>
-  <a href="resume.html">Resume</a>
-  <div class="dropdown">
-    <button class="dropbtnactive">Work 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="devine.html">Devine News</a>      
-      <a href="entertainment.html">Lake Front Entertainment</a>
-      <a href="news.html" class="active">Lake Front News</a>
-    </div>
-  </div> 
-  <a href="https://decastarscorner.wordpress.com/" target="_blank">Blog</a>
+	<a href="index.html">Home</a>
+	<a href="resume.html">Resume</a>
+	<div class="dropdown">
+		<button class="dropbtnactive">Work 
+			<i class="fa fa-caret-down"></i>
+		</button>
+    	<div class="dropdown-content">
+		<a href="devine.html">Devine News</a>      
+		<a href="entertainment.html">Lake Front Entertainment</a>
+		<a href="news.html" class="active">Lake Front News</a>
+		</div>
+	</div> 
+	<a href="https://decastarscorner.wordpress.com/" target="_blank">Blog</a>
 </div>
 
 <center>
@@ -302,25 +310,25 @@ function topFunction() {
 </center>
 	
 <div class="row">
-  <div class="column"><a href="https://lakefrontollu.com/celeste-pineda-the-journey-continues/" target="_blank"><img src="celeste.png" style="width: 400px" padding="20px"></a></div>
-  <div class="column"><a href="https://lakefrontollu.com/chloe-brown-descending-into-chaos/" target="_blank"><img src="chloeb.png" style="width: 400px" padding="20px"></a></div>
-  <div class="column"><a href="https://lakefrontollu.com/movies-to-watch-this-summer/" target="_blank"><img src="summermovies.png" style="width: 400px" padding="20px"></a></div>
+	<div class="column"><a href="https://lakefrontollu.com/celeste-pineda-the-journey-continues/" target="_blank"><img src="celeste.png" class="news"></a></div>
+	<div class="column"><a href="https://lakefrontollu.com/chloe-brown-descending-into-chaos/" target="_blank"><img src="chloeb.png" class="news"></a></div>
+	<div class="column"><a href="https://lakefrontollu.com/movies-to-watch-this-summer/" target="_blank"><img src="summermovies.png" class="news"></a></div>
 </div>
 <div class="row">
-  <div class="column"><a href="https://lakefrontollu.com/san-antonio-campus-gets-lime-bikes/" target="_blank"><img src="rentabike.png" style="width: 350px" padding="20px"></a></div>
-  <div class="column"><a href="https://lakefrontollu.com/drunk-driving-simulation/" target="_blank"><img src="drunkdriving.png" style="width: 350px" padding="20px"></a></div>
-  <div class="column"><a href="https://lakefrontollu.com/march-madness-in-san-antonio/" target="_blank"><img src="marchmadness.png" style="width: 350px" padding="20px"></a></div>
+	<div class="column"><a href="https://lakefrontollu.com/san-antonio-campus-gets-lime-bikes/" target="_blank"><img src="rentabike.png" class="news"></a></div>
+	<div class="column"><a href="https://lakefrontollu.com/drunk-driving-simulation/" target="_blank"><img src="drunkdriving.png" class="news"></a></div>
+	<div class="column"><a href="https://lakefrontollu.com/march-madness-in-san-antonio/" target="_blank"><img src="marchmadness.png" class="news"></a></div>
 </div>
 <div class="row">    
-  <div class="column"><a href="https://lakefrontollu.com/a-brief-history-about-the-day-of-love/" target="_blank"><img src="vday.png" style="width: 350px" padding="20px"></a></div>
-  <div class="column"><a href="https://lakefrontollu.com/a-national-debate-stay-or-go/" target="_blank"><img src="statues.png" style="width: 350px" padding="20px"></a></div>
-  <div class="column"><a href="https://lakefrontollu.com/update-on-lake-view-residence-hall/" target="_blank"><img src="dormupdate.png" style="width: 350px" padding="20px"></a></div>
+	<div class="column"><a href="https://lakefrontollu.com/a-brief-history-about-the-day-of-love/" target="_blank"><img src="vday.png" class="news"></a></div>
+	<div class="column"><a href="https://lakefrontollu.com/a-national-debate-stay-or-go/" target="_blank"><img src="statues.png" class="news"></a></div>
+	<div class="column"><a href="https://lakefrontollu.com/update-on-lake-view-residence-hall/" target="_blank"><img src="dormupdate.png" class="news"></a></div>
 </div>
 	
 <br><br><br>
 	
 <div class="footer">
-  <a href="sitemap.html" class="right">Index</a>
+	<a href="sitemap.html" class="right">Index</a>
 </div>
 
 </body>
