@@ -4,7 +4,36 @@
 <meta charset="utf-8">
 <title>Destiny Camacho</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Charmonman">
-<style> @import url("icp style.css");</style>
+<style> @import url("icp style.css");
+.main {
+	padding: 20px;
+	margin-bottom: 50px;
+}
+	
+/* Create four equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 25%;
+}
+/* Clear floats */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+	.column {
+		width: 50%;
+    }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+    }
+}	
+</style>
 
 <script>
 // When the user scrolls down 20px from the top of the document, show the button
