@@ -82,7 +82,10 @@ body {
 @font-face {
     font-family: 'elsie_swash_capsregular';
     src: url('elsieswashcaps-regular-webfont.woff2') format('woff2'),
-         url('elsieswashcaps-regular-webfont.woff') format('woff');
+         url('elsieswashcaps-regular-webfont.woff') format('woff'),
+	 url('elsieswashcaps-regular-webfont.otf') format('otf'),
+	 url('elsieswashcaps-regular-webfont.svg') format('svg'),
+	 url('elsieswashcaps-regular-webfont.eot') format('eot'),;
     font-weight: normal;
     font-style: normal;
 
@@ -92,7 +95,6 @@ body {
     text-align: center;
     background: #f1f1f1;
     color: teal;
-	font-family: elsie_swash_capsregular, Arial, sans-serif;
 }
 
 .header a.logo{
@@ -103,6 +105,7 @@ body {
 /* Increase the font size of the heading */
 .header h1 {
     font-size: 40px;
+    font-family: elsie_swash_capsregular, Arial, sans-serif;
 }
 
 /* Top Nav */
