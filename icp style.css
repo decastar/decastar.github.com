@@ -79,35 +79,23 @@ body {
 }
 
 /* Header/logo Title */
-@font-face {
-    font-family: 'elsie_swash_capsregular';
-    src: url('elsieswashcaps-regular-webfont.woff2') format('woff2'),
-         url('elsieswashcaps-regular-webfont.woff') format('woff'),
-	 url('elsieswashcaps-regular-webfont.otf') format('otf'),
-	 url('elsieswashcaps-regular-webfont.svg') format('svg'),
-	 url('elsieswashcaps-regular-webfont.eot') format('eot'),;
-    font-weight: normal;
-    font-style: normal;
 
-}
 .header {
 	padding: 20px;
     text-align: center;
     background: #f1f1f1;
     color: teal;
-    font-family: elsie_swash_capsregular;
+	font-family: aclonica;
 }
 
 .header a.logo{
 	color: teal;
 	text-decoration: none;
-    font-family: elsie_swash_capsregular;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
     font-size: 40px;
-    font-family: elsie_swash_capsregular;
 }
 
 /* Top Nav */
