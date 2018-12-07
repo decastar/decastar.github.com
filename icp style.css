@@ -80,13 +80,9 @@ body {
 
 /* Header/logo Title */
 @font-face {
-    font-family: 'elsieswashcaps';
-    src: url('elsieswashcaps-regular-webfont.woff2') format('woff2'),
-         url('elsieswashcaps-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-family: elsieswashcaps;
+    src: url(elsieswashcaps-regular.ttf);
 }
-
 .header {
 	padding: 20px;
     text-align: center;
