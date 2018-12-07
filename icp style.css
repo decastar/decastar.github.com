@@ -95,17 +95,19 @@ body {
     text-align: center;
     background: #f1f1f1;
     color: teal;
+    font-family: elsie_swash_capsregular;
 }
 
 .header a.logo{
 	color: teal;
 	text-decoration: none;
+    font-family: elsie_swash_capsregular;
 }
 
 /* Increase the font size of the heading */
 .header h1 {
     font-size: 40px;
-    font-family: elsie_swash_capsregular, Arial, sans-serif;
+    font-family: elsie_swash_capsregular;
 }
 
 /* Top Nav */
